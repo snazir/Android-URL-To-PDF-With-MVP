@@ -42,6 +42,7 @@ public class MainPresenter implements Presenter<MainView> {
             return;
         }
         mView.showLoading();
+        mView.disableButtonClick();
         downloadPdf(enteredUrl);
     }
 

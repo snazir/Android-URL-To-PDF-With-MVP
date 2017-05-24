@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity implements MainView,Download
 
     @BindView(R.id.activity_pdf_progressBar)
     ProgressBar progressBar;
+
+    @BindView(R.id.get_pdf_button)
+    Button mGetPdfButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +70,11 @@ public class MainActivity extends AppCompatActivity implements MainView,Download
     @Override
     public void hideLoading() {
         progressBar.setVisibility(View.GONE);
+    }
+
+    @Override
+    public void disableButtonClick() {
+        mGetPdfButton.setEnabled(false);
     }
 
     @Override

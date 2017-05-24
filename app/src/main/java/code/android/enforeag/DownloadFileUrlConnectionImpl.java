@@ -17,9 +17,9 @@ public class DownloadFileUrlConnectionImpl implements DownloadFile {
     private static final int BUFFER_LEN = 1 * KILOBYTE;
     private static final int NOTIFY_PERIOD = 150 * KILOBYTE;
 
-    Context context;
-    Handler uiThread;
-    Listener listener = new NullListener();
+    private Context context;
+    private Handler uiThread;
+    private Listener listener = new NullListener();
 
     public DownloadFileUrlConnectionImpl(Context context, Handler uiThread, Listener listener) {
         this.context = context;

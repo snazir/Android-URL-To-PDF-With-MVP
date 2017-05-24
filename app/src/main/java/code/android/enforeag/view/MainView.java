@@ -15,4 +15,5 @@ public interface MainView extends MvpView {
 
     void hideLoading();
 
+    void disableButtonClick();
 }
