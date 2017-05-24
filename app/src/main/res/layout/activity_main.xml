@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchParentLayout"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+
+    <ProgressBar
+        android:id="@+id/activity_pdf_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <EditText
+        android:id="@+id/et_url"
+        style="@style/WrapContentLayout"
+        android:ems="10"
+        android:hint="@string/url_hint"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/get_pdf_button"
+        style="@style/WrapContentLayout"
+        android:layout_marginTop="15dp"
+        android:text="@string/pdf_button_text" />
+
+</LinearLayout>

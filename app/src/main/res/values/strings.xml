@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Enfore AG</string>
+    <string name="url_hint">Please Enter Valid URL</string>
+    <string name="pdf_button_text">Get PDF</string>
+    <string name="empty_url_message">Url cannot be empty</string>
+    <string name="invalid_url_message">Please enter valid url</string>
+</resources>
