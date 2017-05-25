@@ -16,4 +16,9 @@ public interface MainView extends MvpView {
     void hideLoading();
 
     void disableButtonClick();
+    void enableButtonClick();
+
+    void showNoHtmlFromServerMessage(int text_empty_html);
+
+    void showToastHtml(String htmlCode);
 }

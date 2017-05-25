@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Enfore AG</string>
-    <string name="url_hint">Please Enter Valid URL</string>
-    <string name="pdf_button_text">Get PDF</string>
+    <string name="url_hint">Valid URL to Download PDF</string>
+    <string name="pdf_button_text">Get PDF From Link</string>
     <string name="empty_url_message">Url cannot be empty</string>
     <string name="invalid_url_message">Please enter valid url</string>
+    <string name="text_empty_html">No Html received from the server</string>
+    <string name="error_from_server">Some Error Occurred</string>
+    <string name="error_loading_html">Error Loading Html</string>
+    <string name="html_pdf_button_text">Generate PDF From HTML</string>
 </resources>

@@ -22,9 +22,21 @@
         android:inputType="textUri" />
 
     <Button
-        android:id="@+id/get_pdf_button"
+        android:id="@+id/get_pdf_from_link_button"
         style="@style/WrapContentLayout"
         android:layout_marginTop="15dp"
         android:text="@string/pdf_button_text" />
+
+    <Button
+        android:id="@+id/get_pdf_from_html_button"
+        style="@style/WrapContentLayout"
+        android:layout_marginTop="15dp"
+        android:text="@string/html_pdf_button_text" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        style="@style/MatchParentLayout"
+
+        />
 
 </LinearLayout>
