@@ -114,5 +114,6 @@ public class MainPresenter implements Presenter<MainView> {
 
 
     public void handleGetPdfFromHtmlButtonClick() {
+        loadHtmlFromServer();
     }
 }
